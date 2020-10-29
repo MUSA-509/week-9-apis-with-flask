@@ -6,6 +6,7 @@
   * AWS classroom - did you get an email?
   * Google classroom — you have $50 in credits. Check Canvas for signup link.
   * [Homework 4](https://github.com/MUSA-509/homework-4) coming Thursday (due the following Thursday, Nov 5th)
+  * pgAdmin problems? Reach out to me so we can solve it before class next week!
 - Where we're going (redux)
 - Running Python scripts
 - Installing a new dependency into our class environment
