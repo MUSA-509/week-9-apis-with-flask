@@ -5,7 +5,7 @@ import json
 app = Flask(__name__, template_folder="templates")
 
 with open("mapbox_token.json") as tokenf:
-    MAPBOX_TOKEN = json.load(tokenf)
+    MAPBOX_TOKEN = json.load(tokenf)['token']
 
 # index page
 @app.route("/")
