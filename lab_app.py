@@ -24,7 +24,7 @@ def hello_name(name):
 
 ## 3. Static Map Generation
 def get_static_map_url(lng, lat):
-    url = f"https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/{lng},{lat},10,0/800x800?access_token={MAPBOX_TOKEN}",
+    url = f"https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/{lng},{lat},10,0/800x800?access_token={MAPBOX_TOKEN}"
     return url
 
 ## 4. Turn an address into a static map

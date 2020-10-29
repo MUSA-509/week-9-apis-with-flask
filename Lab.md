@@ -6,7 +6,7 @@
   `$ conda install -n musa509week6 flask`
 2. Activate your class environment
   `$ conda activate musa509week6`
-3. Put the Mapbox credentials
+3. Put the Mapbox credentials into the directory. Download here: <https://canvas.upenn.edu/courses/1533813/files/90068242/download?download_frd=1>.
 3. Start up the Flask server
   `$ python lab_app.py`
 4. Open up `http://127.0.0.1:5000/` in your browser
@@ -19,7 +19,7 @@ You can get the current time with the following code. It will format it in a hum
 
 ```python
 from datetime import datetime
-curr_time = datetime.now().strftime("%B %d, %Y %I:%m %p")
+curr_time = datetime.now().strftime("%B %d, %Y %I:%M %p")
 ```
 
 **Write your answer in the `lab_app.py`.**
